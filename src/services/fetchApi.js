@@ -3,8 +3,8 @@ import axios from 'axios'; // Імпортуємо бібліотеку axios
 // Встановлюємо базову URL-адресу для всіх запитів до API
 axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
 
-// Зчитуємо ключ API із змінних середовища (файл .env).
-const API_KEY = import.meta.env.VITE_API_KEY; // Файл додан в .gitignore
+//  Ключ API .
+const API_KEY = '908f49e074ea481a64fb607e6a116d45';
 
 
 
