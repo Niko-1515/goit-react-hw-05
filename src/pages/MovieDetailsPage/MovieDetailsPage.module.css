@@ -1,0 +1,138 @@
+.wrapper {
+    max-width: 90vw;
+    margin: 10px auto 0;
+  }
+  
+  .img_info_wrap {
+    display: flex;
+    border-radius: 20px;
+    border: 3px solid gray;
+    gap: 20px;
+    background-color: rgb(231, 231, 231);
+    overflow: hidden;
+  }
+  
+  .image {
+    max-width: 400px; /* Або вказати конкретну ширину */
+    height: auto; /* Автоматична висота для збереження пропорцій */
+    object-fit: cover; /* Або object-fit: cover, в залежності від ваших вимог */
+  }
+  
+  .infoWrap {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+  
+  .title {
+    display: block;
+    font-size: 36px;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    text-align: center;
+    color: orangered;
+  }
+  
+  .paragpaph {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    align-items: center;
+  }
+  
+  .infoWrap .overview {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px; */
+    font-size: 18px;
+    align-items: start;
+    text-align: left;
+  }
+  
+  .nav {
+    margin-top: auto;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .back {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 5px 20px 5px 15px;
+    background-color: orangered;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .icon,
+  .icon_back {
+    width: 28px;
+    height: 28px;
+    fill: rgb(0, 0, 0);
+  }
+  
+  @media (max-width: 768px) {
+    .wrapper {
+      max-width: 80vw;
+      margin: 10px auto;
+    }
+  
+    .img_info_wrap {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .image {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .infoWrap {
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    .title {
+      font-size: 24px;
+      text-align: left;
+    }
+  
+    .paragpaph {
+      font-size: 16px;
+      gap: 5px;
+    }
+  
+    .infoWrap .overview {
+      font-size: 16px;
+    }
+  
+    .nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .link {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
