@@ -6,6 +6,8 @@ axios.defaults.baseURL = 'https://api.themoviedb.org/3/';
 // Зчитуємо ключ API із змінних середовища (файл .env).
 const API_KEY = import.meta.env.VITE_API_KEY; // Файл додан в .gitignore
 
+
+
 // ==================== Функції для роботи з API TMDB ==================== //
 
 // Функція для отримання списку популярних фільмів
